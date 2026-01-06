@@ -13,6 +13,7 @@ Also from the NOAA, this is a shp file that maps the Lake Erie shoreline. I used
 # __Files__:
 
 | Filename | Function |
+| ------- | ------- |
 | alg_graphical.ipynb | All modeling is done in this file (graphical, SciKit nueral networds, application). |
 | user_alg.py | Allows users to provide a temperature or turbidity value and returns the projected chlorophyll-A level. |
 | lake_erie_stations.png | Plot of the different station locations. |
