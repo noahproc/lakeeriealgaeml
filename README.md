@@ -1,6 +1,8 @@
 # Lake Erie Algae Bloom - Simple, Supervised ML
 On the top level, my goal was to predict the chlorphyll-A levels in the western basin of Lake erie, which are a key predictor of algae in the Lake based on turbidity, temperature, and date. The western basin experiences the most significant HAB (harmful algae bloom) threat, and in 2014, the algae levels in the lake contaminated water in Toledo, OH for three days. Monitoring the lake's algae levels and maintaining the proper filtration/distribution infrastructure is vital for both the safety and security of the citizens. 
 
+You can find the methodology of the model and broader project in the markdowns of the Jupyter Notebook, where I explain step-by-step my implementation of the data described below. The end goal of the project is to predict aglal bloom severity based on the day of the year and map the severity onto a plot of the Lake Erie shoreline. 
+
 # __Datasets__:
 
 __Weekly Sampling Data__: 
@@ -18,5 +20,4 @@ Also from the NOAA, this is a shp file that maps the Lake Erie shoreline. I used
 | user_alg.py | Allows users to provide a temperature or turbidity value and returns the projected chlorophyll-A level. |
 | lake_erie_stations.png | Plot of the different station locations. |
 | 2025_WLE_Weekly_Datashare_CSV.csv | CSV of the NOAA weekly sampling data. |
-
-All of the .sav models are those saved for export for use in user_alg.py. More information is provided in the notebook. 
+| scalers | All of scalers and models exported from alg_graphical.ipynb are saved here and used in user_alg.py. |
