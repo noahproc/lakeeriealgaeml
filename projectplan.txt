@@ -1,0 +1,4 @@
+1:  Jupyter Notebook that plots the current data based on the stations. 
+    Given the temperature, cyanobacterial activity, turbidity, and any other models, scale a color on the map from red to purple, 
+    where purple is essentially algae free (this should be during the winter months) and red for the most severe. 
+    Match severity with the given HAB severity index. 
